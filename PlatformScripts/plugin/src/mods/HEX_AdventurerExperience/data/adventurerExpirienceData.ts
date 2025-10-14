@@ -133,7 +133,7 @@ export default class AdventurerExpirienceData {
         {
           gameName: "Повышение здоровья",
           index: 0,
-          divider: 10,
+          divider: 1,
           value: 15,
         },
         {
@@ -236,7 +236,7 @@ export default class AdventurerExpirienceData {
           gameName: "Сопротивление ядам и болезням",
           index: 2,
           divider: 1,
-          value: 0,
+          value: 2,
         },
       ],
     },
