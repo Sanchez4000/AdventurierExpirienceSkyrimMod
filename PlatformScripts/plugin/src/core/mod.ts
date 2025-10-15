@@ -7,7 +7,7 @@ export default class Mod {
   private readonly ModName: string;
 
   public constructor(index: number, name: string) {
-    const hexIndex = index.toString(16);
+    const hexIndex = index.toString(16).padStart(2, "0");
     this.ModPrefix = `0x${hexIndex}`;
     this.ModName = name;
   }
